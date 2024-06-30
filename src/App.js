@@ -8,8 +8,6 @@ import Details from "./components/Details";
 import Cart from "./components/Cart";
 import Default from "./components/Default";
 import Modal from './components/Modal';
-import Product from './components/Product';
-import Title from './components/Title';
 import Login from './components/Login';
 
 function App() {
