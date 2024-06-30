@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*
+{
+    font-family: "Josefin Sans", sans-serif;
+    /* margin: 0; */
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+}
+.mainform   
+{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4e8ed;
+}
+  
+  .neoParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+    
+  .neoForm {
+    border-radius: 34px;
+    box-shadow: 13px 13px 20px #cbced1,
+      -13px -13px 20px #ffffff;
+    padding:11%;
+  }
+  
+  .neoMain {
+    padding: 5% 0;
+  }
+  
+  .neoHead {
+    text-align: center;
+    h1
+    {
+        font-size: 37px;
+    }
+  }
+  
+  .neoIcon {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    background: #e8e8e8;
+    box-shadow: inset 5px 5px 8px #bebebe,
+      inset -5px -5px 8px #ffffff;
+    display: grid;
+    place-content: center;
+  }
+  
+  .neoimg_bg {
+    display: grid;
+    place-items: center;
+    margin: 5% 0;
+  }
+  
+  #formlogo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    /* filter: hue-rotate(50deg); */
+  }
+  
+  #neoname,
+  #neonum,
+  #neomail {
+    width: 400px;
+    height: 60px;
+    margin: 5% 0;
+    /* border-radius: 20px; */
+    background: #e4ecec;
+    box-shadow: inset 8px 8px 8px #cbced1,
+      inset -8px -8px 8px #ffffff;
+    border: none;
+    font-size: 20px;
+    /* padding-left: 20px; */
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    outline: none;
+    border-radius: 5px;
+  }
+  
+  #neonum::-webkit-inner-spin-button
+  {
+    appearance: none;
+  }
+  
+  #neobtn {
+    width: 200px;
+    height: 60px;
+    background-color: #000185;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    outline: none;
+    color: white;
+    margin-top: 20px;
+    box-shadow: inset 20px 20px 18px #000035,
+      inset -20px -20px 18px #0002d5;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .enq_btn {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  :is(#neoname, #neonum, #neomail)::placeholder {
+    text-align: center;
+    color: black;
+  }
+  
