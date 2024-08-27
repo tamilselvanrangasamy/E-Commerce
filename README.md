@@ -1,5 +1,6 @@
 # Getting Started with Create React App
-Live Demo (https://tsrecommerce.netlify.app/)
+
+[🔗Live Demo🔗](https://tsrepmmerce.netlify.app/)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
